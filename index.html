@@ -1,0 +1,763 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href='https://fonts.googleapis.com/css?family=Quicksand' rel='stylesheet'>
+<link href='https://fonts.googleapis.com/css?family=Francois One' rel='stylesheet'>
+<link href='https://fonts.googleapis.com/css?family=Secular One' rel='stylesheet'>
+<link href='https://fonts.googleapis.com/css?family=Mochiy Pop One' rel='stylesheet'>
+<link href='https://fonts.googleapis.com/css?family=Commissioner' rel='stylesheet'>
+<link href='https://fonts.googleapis.com/css?family=Passion One' rel='stylesheet'>
+
+<style>
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: transparent;
+
+}
+
+.topnav a {
+  float: right;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 42px 20px;
+  text-decoration: none;
+  font-size: 17px;
+  font-family:Commissioner;
+}
+
+
+.topnav a:hover {
+  background-color: transparent;
+  color: #F15A2C ;
+    
+}
+
+
+
+.topnav a.active  {
+  background-color: transparent	 ;
+  color: #F15A2C ;
+  
+  
+
+}
+
+.topnav .icon {
+  display: none;
+}
+
+@media screen and (max-width: 900px) {
+  .topnav a:not(:first-child) {display: none;}
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+
+  .topnav.responsive {position: relative;}
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+
+
+
+
+.logoimg{
+	height:90px;
+}
+.responsive {
+  width: 180px;
+  height: auto;
+  padding-left:60px;
+}
+@media screen and (max-width: 1000px) {
+ .responsive {
+  width: 150px;
+  height: auto;
+  padding-left:20px;
+}
+}
+
+@media screen and (max-width: 400px) {
+ .responsive {
+  width: 120px;
+  height: auto;
+  padding-left:10px;
+  padding-top:2px
+}
+.topnav a {
+  float: left;
+  display: block;
+  color: grey;
+  text-align: center;
+  padding: 25px 14px;
+  text-decoration: none;
+  font-size: 17px;
+  font-family:Quicksand;
+}
+}
+
+
+#connectus{
+padding-left:300px;
+padding-rigth:60px	}
+@media screen and (max-width: 1300px) {
+#connectus{
+padding-left:100px;
+
+	}
+
+}
+@media screen and (max-width: 1100px) {
+#connectus{
+padding-left:0px;
+
+	}
+
+}
+
+@media screen and (max-width: 900px) {
+#connectus{
+padding-left:0px;
+	}
+
+}
+#color-overlay {
+ 
+   background-color: black;
+   opacity: 0.6;
+}
+
+
+header {
+    height: 600px;
+    width: 100%;
+    background: black;
+    overflow: hidden;
+}
+
+#coverimg {
+   object-fit: cover;
+   opacity: 0.3;
+}
+
+
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.bottom-left {
+  position: absolute;
+  bottom: 8px;
+  left: 16px;
+}
+
+.top-left {
+  position: absolute;
+  top: 8px;
+  left: 16px;
+}
+
+.top-right {
+  position: absolute;
+  top: 8px;
+  right: 16px;
+}
+
+.bottom-right {
+  position: absolute;
+  bottom: 8px;
+  right: 16px;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.button {
+  background-color: #F15A2C; /* orange */
+  border: none;
+  color: white;
+  padding: 15px 38px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+.button2 {
+  background-color: #F15A2C; /* orange */
+  border: none;
+  color: white;
+  padding: 15px 38px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.button1 {
+  background-color: #1C1B2C; /* orange */
+  border: none;
+  color: white;
+  padding: 15px 38px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+
+.maincont{
+font-size:20px;font-family:Commissioner
+}
+
+@media screen and (max-width: 600px) {
+.maincont{
+font-size:15px;font-family:Commissioner;display:inline;
+
+}
+
+}
+
+
+.responsive1{
+  width: 620px;
+  height:auto;
+  padding-left:100px;
+  padding-top:90px;
+   animation: zoom-in-zoom-out 1s ease infinite;
+   float:right;
+}
+.mainfuture{
+border:0px solid red;width:100%;height:600px}
+.futurediv{
+border:0px solid red;width:49%;height:600px;float:left;
+}
+
+.futuredivcontent{
+border:0px solid red;width:49%;height:600px;float:left
+
+}
+
+.futuredivcontent_padding{
+padding-top:100px;padding-left:50px;
+}
+
+
+
+
+.mainfuture1{
+border:0px solid red;width:100%;height:600px}
+.futurediv{
+border:0px solid red;width:49%;height:600px;float:left;
+}
+
+.futuredivcontent1{
+border:0px solid red;width:49%;height:600px;float:left
+
+}
+
+.futuredivcontent_padding1{
+padding-top:00px;padding-right:50px;float:right
+}
+.responsive2{
+  width: 580px;
+  height:400px;
+  padding-left:00px;
+  padding-top:0px;
+   animation: zoom-in-zoom-out 1s ease infinite;
+   float:left;
+}
+
+
+
+
+@media screen and (max-width: 1350px) {
+.responsive1{
+  width: 580px;
+  height:400px;
+  padding-left:100px;
+  padding-top:90px;
+   animation: zoom-in-zoom-out 1s ease infinite;
+   float:right;
+}
+
+
+}
+
+@media screen and (max-width: 1250px) {
+.responsive1{
+  width: 450px;
+  height:500px;
+  padding-left:100px;
+  padding-top:50px;
+   animation: zoom-in-zoom-out 1s ease infinite;
+   float:right;
+}
+.responsive2{
+  width: 450px;
+  height:500px;
+  padding-left:00px;
+  padding-top:90px;
+   animation: zoom-in-zoom-out 1s ease infinite;
+   float:left;
+}
+.futuredivcontent1{
+border:0px solid red;width:49%;height:600px;padding-left:15px
+
+}
+
+}
+
+
+@media screen and (max-width: 950px) {
+.responsive1{
+  width: 650px;
+  height:500px;
+  padding-left:140px;
+  padding-top:50px;
+  float:left;   
+}
+.futuredivcontent_padding{
+padding-top:0px;padding-left:170px;
+}
+.futurediv{
+border:0px solid red;width:100%;height:600px;float:left;
+}
+
+.futuredivcontent{
+border:0px solid red;width:100%;height:400px;float:left
+
+}
+.mainfuture1{
+display:none;}
+}
+
+
+
+@media screen and (max-width: 850px) {
+.responsive1{
+  width: 700px;
+  height:500px;
+  padding-left:50px;
+  padding-top:50px;
+  float:left;   
+}
+
+.futuredivcontent_padding{
+padding-top:0px;padding-left:70px;
+}
+.futurediv{
+border:0px solid red;width:100%;height:600px;float:left;
+}
+
+.futuredivcontent{
+border:0px solid red;width:100%;height:400px;float:left
+
+}
+}
+
+
+@media screen and (max-width: 750px) {
+.responsive1{
+  width: 620px;
+  height:400px;
+  padding-left:50px;
+  padding-top:50px;
+  float:left;   
+}
+.futuredivcontent_padding{
+padding-top:0px;padding-left:70px;
+}
+.futurediv{
+border:0px solid red;width:100%;height:500px;float:left;
+}
+
+.futuredivcontent{
+border:0px solid red;width:100%;height:400px;float:left
+
+}
+}
+@media screen and (max-width: 700px) {
+.responsive1{
+  width: 420px;
+  height:300px;
+  padding-left:20px;
+  padding-top:50px;
+  float:left;   
+}
+.futurediv{
+border:0px solid red;width:100%;height:400px;float:left;
+}
+
+.futuredivcontent{
+border:0px solid red;width:100%;height:600;float:left
+
+}
+}
+
+@media screen and (max-width: 550px) {
+.responsive1{
+  width: 420px;
+  height:300px;
+  padding-left:20px;
+  padding-top:50px;
+  float:left;   
+}
+.futurediv{
+border:0px solid red;width:100%;height:400px;float:left;
+}
+.mainfuture{
+border:0px solid red;width:100%;height:1000px
+
+}
+.futuredivcontent{
+border:0px solid pink;width:100%;height:800;float:left
+
+}
+.futuredivcontent_padding{
+padding-top:0px;padding-left:20px;
+}
+.button1 {
+  background-color: #1C1B2C; /* orange */
+  border: none;
+  color: white;
+  padding: 15px 68px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+.button2 {
+  background-color: #F15A2C; /* orange */
+  border: none;
+  color: white;
+  padding: 15px 83px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+}
+
+@media screen and (max-width: 450px) {
+.responsive1{
+  width: 320px;
+  height:200px;
+  padding-left:50px;
+  padding-top:50px;
+  float:left;   
+}
+.futurediv{
+border:0px solid red;width:100%;height:300px;float:left;
+}
+
+.futuredivcontent{
+border:0px solid red;width:100%;height:600px;float:left
+
+}
+}
+
+@media screen and (max-width: 400px) {
+.responsive1{
+  width: 290px;
+  height:200px;
+  padding-left:50px;
+  padding-top:50px;
+  float:left;   
+}
+.futurediv{
+border:0px solid red;width:100%;height:300px;float:left;
+}
+
+.futuredivcontent{
+border:0px solid red;width:100%;height:600px;float:left
+
+}
+}
+
+@media screen and (max-width: 370px) {
+.responsive1{
+  width: 270px;
+  height:200px;
+  padding-left:20px;
+  padding-top:50px;
+  float:left;   
+}
+.futurediv{
+border:0px solid red;width:100%;height:300px;float:left;
+}
+
+.futuredivcontent{
+border:0px solid red;width:100%;height:600px;float:left
+
+}
+}
+
+
+.reportsec{
+border:0px solid red;width:23%;height:560px;float:left;background-color:#F15A2C  
+}
+.reportsecpadd{
+border:0px solid red;width:15%;height:570px;float:left
+}
+
+@media screen and (max-width: 1460px) {
+.reportsec{
+border:0px solid red;width:28%;height:600px;float:left;background-color:#F15A2C  
+}
+.reportsecpadd{
+border:0px solid red;width:5%;height:570px;float:left
+}
+
+
+}
+
+@media screen and (max-width: 1000px) {
+.reportsec{
+border:0px solid red;width:60%;height:600px;float:left;background-color:#F15A2C  ;margin-top:10px
+}
+.reportsecpadd{
+border:0px solid red;width:20%;height:1570px;float:left
+}
+
+
+}
+
+@media screen and (max-width: 700px) {
+.reportsec{
+border:0px solid red;width:70%;height:600px;float:left;background-color:#F15A2C  ;margin-top:10px
+}
+.reportsecpadd{
+border:0px solid red;width:13%;height:1570px;float:left
+}
+
+
+}
+
+@media screen and (max-width: 500px) {
+.reportsec{
+border:0px solid red;width:85%;height:600px;float:left;background-color:#F15A2C  ;margin-top:10px
+}
+.reportsecpadd{
+border:0px solid red;width:10%;height:1570px;float:left
+}
+
+
+}
+
+@media screen and (max-width: 500px) {
+.reportsec{
+border:0px solid red;width:80%;height:600px;float:left;background-color:#F15A2C  ;margin-top:10px
+}
+.reportsecpadd{
+border:0px solid red;width:10%;height:1570px;float:left;font-size:18px
+}
+
+
+}
+
+</style>
+</head>
+<body>
+
+<div class="topnav" id="myTopnav" >
+  <img src="logog.jpg" class="responsive"  >
+  <a href="#Contactus" id="connectus"  >Connect us</a>
+  
+  <a href="#Contactus" style="padding-rigth:60px">Contactus</a>
+    <a href="#Aboutus" >Aboutus</a>
+  <a href="#Industries">Industries</a>
+  <a href="#Insights">Insights</a>
+
+    <a href="#news">Services</a>
+  
+  <a href="#home" class="active">Home</a>
+
+  
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+
+</div>
+<header class="container">
+   <img src="cover4.jpg" id="coverimg" alt="Five developers at work." width="100%" height="600px	">
+
+  <div class="centered"><h1 style="font-size:50px;font-family:Secular One">Creating Future</h1>
+  <p class="maincont" >
+  Redefining research, reimagining technology, and reshaping insights.<br>
+  Unravel what’s tomorrow to make a difference.<br>
+Future is Now !
+  </p>
+  <button class="button" style="font-family:Commissioner">Know more</button>
+
+  </div>
+
+</header>
+
+<script>
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+</script>
+	<div class="mainfuture" >
+	<div class="futurediv" >
+	<img src="future.jpg" class="responsive1">
+	</div>
+	<div class="futuredivcontent">
+	<div class="futuredivcontent_padding">
+	<h1 style="font-family:Secular One;font-size:45px">Research & Insights</h1>
+	<p style="font-family:Secular One;color:#4D5061;font-size:20px">Empowering brands to xcel, grow and innovate</p>
+     <p style="font-family:Commissioner;color:gray">We cut through the chaos to deliver speedy, reliable, and accurate<br> 
+	 research, data and insights for actionable intelligence and swift decision<br>
+	 making amidst rapidly changing market dynamics. With proprietary tools<br>
+	 and technologies, we become strategic partners to decode and predict<br>
+	 what’s next today helping you stay ahead in the market.
+	 </p>
+	  <button class="button2" style="font-family:Commissioner">See us in action</button>
+  <button class="button1" style="font-family:Commissioner">Syndicated Reports</button>
+
+	
+	</div>
+	
+	</div>
+	</div>
+	
+	
+	
+	
+	
+		<div class="mainfuture1" >
+
+	<div class="futuredivcontent1">
+	<div class="futuredivcontent_padding1">
+	<h1 style="font-family:Secular One;font-size:45px">Communities</h1>
+	<p style="font-family:Secular One;color:#4D5061;font-size:20px">Unlock power of communities for marketing and <br>insights automation</p>
+     <p style="font-family:Commissioner;color:gray">
+	 With a strong community of more than 5 million panellists, LOCEP provide<br>
+	 a qualified community panel facilitating conversations powered by AI, ML,<br>
+	 and human moderation. We also have dedicated Indian rural community <br>	
+	 engagement initiative aimed at building connected Bharat.
+	 </p>
+	  <button class="button2" style="font-family:Commissioner">Know more</button>
+
+	
+	</div>
+	
+	</div>
+		<div class="futurediv" >
+	<img src="Communities.jpg" class="responsive2">
+	</div>
+	</div>
+	
+
+
+<!--  top reports -->
+<div style="border:0px solid red;width:100%;height:600px">
+<div class="reportsecpadd" ></div>
+<div class="reportsec"  >
+<div style="padding:10px;color:white;font-family:Commissioner">
+<h1 style="color:white;font-family:Francois One">Top Reports</h1>
+<p style="color:white">BUTYRIC ACID MARKET</p>
+<p><span style="color:#1C1B2C">Published Date :</span> 9/30/2022</p>
+<hr>
+<p>IDAAS MARKET</p>
+<p><span style="color:#1C1B2C">Published Date :</span> 9/29/2022</p>
+<hr>
+<p>FLUID TRANSFER SYSTEM MARKET</p>
+<p><span style="color:#1C1B2C">Published Date :</span> 9/18/2022</p>
+<hr>
+<p>TRACK AND TRACE SOLUTIONS MARKET</p>
+<p><span style="color:#1C1B2C">Published Date :</span> 9/18/2022</p>
+<hr>
+<p>FPGA MARKET</p>
+<p><span style="color:#1C1B2C">Published Date :</span> 9/28/2022</p>
+<hr>
+SEE ALL REPORTS
+
+</div></div>
+<div style="border:0px solid red;width:2%;height:570px;float:left"></div>
+<div class="reportsec" >
+<div style="padding:10px;color:white;font-family:Commissioner">
+<h1 style="color:white;font-family:Francois One">Press Releases</h1>
+<p>CONTRACT RESEARCH ORGANIZATION (CRO) SERVICES MARKET WORTH $127.3 BILLION BY 2028</p>
+<p><span style="color:#1C1B2C">Published Date :</span> 2/2/2023</p>
+<hr>
+<p>3D PRINTING MATERIALS MARKET WORTH $7.9 BILLION BY 2027</p>
+<p><span style="color:#1C1B2C">Published Date :</span> 9/29/2022</p>
+<hr>
+<p>SPEECH ANALYTICS MARKET WORTH $5.1 BILLION BY 2027</p>
+<p><span style="color:#1C1B2C">Published Date :</span> 9/18/2022</p>
+<hr>
+<p>THERAPEUTIC DRUG MONITORING MARKET WORTH $2.9 BILLION BY 2027</p>
+<p><span style="color:#1C1B2C">Published Date :</span> 9/18/2022</p>
+<hr>
+
+SEE ALL PRESS RELEASES
+
+</div>
+
+</div>
+<div style="border:0px solid red;width:2%;height:570px;float:left"></div>
+<div  class="reportsec">
+<div style="padding:10px;color:white;font-family:Commissioner">
+<h1 style="color:white;font-family:Francois One">Research Insights</h1>
+<p>CONTRACT RESEARCH ORGANIZATION (CRO) SERVICES MARKET WORTH $127.3 BILLION BY 2028</p>
+<p><span style="color:#1C1B2C">Published Date :</span> 2/2/2023</p>
+<hr>
+<p>HONEYWELL (US) AND LOCKHEED MARTIN (US) ARE LEADING PLAYERS IN INCIDENT AND EMERGENCY MANAGEMENT MARKET</p>
+<p><span style="color:#1C1B2C">Published Date :</span> 9/29/2022</p>
+<hr>
+<p>GENERAL ELECTRIC (US), EOS GMBH (GERMANY) AND MATERIALISE (BELGIUM) ARE LEADING PLAYERS IN THE 3D PRINTING MATERIALS MARKET</p>
+<p><span style="color:#1C1B2C">Published Date :</span> 9/18/2022</p>
+<hr>
+
+
+SEE ALL PRESS RELEASES
+
+</div>
+
+
+</div>
+
+
+
+</div>
+</body>
+</html>
